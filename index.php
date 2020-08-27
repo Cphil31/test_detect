@@ -7,3 +7,7 @@ var_dump($useragent);
 lien http
 http://www.codeurjava.com/2017/01/php-detecter-si-un-terminal-est-un-mobile-tablette.html
 */
+
+// adresse ip de la machine 
+$server=$_SERVER['REMOTE_ADDR'];
+var_dump($server);
